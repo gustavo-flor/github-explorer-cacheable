@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  shutdown: graceful
+spring:
+  application:
+    name: github-explorer
+  main:
+    banner-mode: off
+  redis:
+    host: localhost
+    port: 6379
+  cache:
+    type: redis
+springdoc:
+  swagger-ui:
+    path: /
